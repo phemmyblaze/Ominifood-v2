@@ -24,7 +24,7 @@ HEADER
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 3.2rem;
+    gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -67,6 +67,7 @@ HERO SECTION
     background-color: #fdf2e9;
     padding: 4.8rem 0 9.6rem 0;
 }
+
 
 .hero {
     max-width: 130rem;
@@ -633,3 +634,4 @@ CTA SECTION
 .footer-grid {
     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
+
