@@ -456,20 +456,20 @@
                             Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
                         </p>
 
-                        <form action="#" class="cta-form">
+                        <form class="cta-form" name="sign-up" netlify>
                             <div class="">
                                 <label for="full-name">Full Name</label>
-                                <input id="full-name" type="text" placeholder="Your name" required>
+                                <input id="full-name" type="text" placeholder="Your name" name="full-name" required>
                             </div>
                             
                             <div class="">
                                 <label for="email">Your email address</label>
-                                <input id="email" type="email" placeholder="xyz@gmail.com" required>
+                                <input id="email" type="email" placeholder="xyz@gmail.com" email="email" required>
                             </div>
                             
                             <div class="">
                                 <label for="select-where">Where did you hear about us</label>
-                                <select name="" id="select-where" required>
+                                <select name="" id="select-where" name="select-where" required>
                                     <option value="">Please chose one option</option>
                                     <option value="friends">Friends and family</option>
                                     <option value="youtube">Youtube</option>
